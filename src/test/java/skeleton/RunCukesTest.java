@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin= {"json:target/cucumber.json"},
-tags="@datatable")
+tags="@data-outline")
 public class RunCukesTest{
    //changes on 29th July
 }
